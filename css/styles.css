@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: reqular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.main-header {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.list-title {
+    font-weight: medium;
+    font-size: 20px;
+}
+
+.order-button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    cursor: pointer;
+}
+
+.home-page-link .email .phone-number .contacts-link .portfolio-link .studio-link {
+    font-weight: regular;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+    text-decoration: underline;
+}
+
+.contacts-link:hover {
+    color: #404BBF;
+}
+
+.portfolio-link:hover {
+    color: #404BBF;
+}
+
+.studio-link:hover {
+    color: #404BBF;
+}
+
+.email:hover {
+    color: #404BBF;
+}
+
+.phone-number:hover {
+    color: #404BBF;
+}
