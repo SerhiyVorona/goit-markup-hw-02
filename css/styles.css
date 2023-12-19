@@ -31,12 +31,17 @@
     color: #404BBF;
 }
 
+.nav-bar:focus {
+    color: #404BBF;
+}
+
 .contact-information {
     font-style: normal;
 }
 
 .contact-information-item {
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -45,7 +50,7 @@
     color: #404bbf;
 }
 
-.contact-information-item:active {
+.contact-information-item:focus {
     color: #404bbf;
 }
 
@@ -98,6 +103,25 @@
 
 .team {
     background-color: #F4F4FD;
+}
+
+.team-members-table {
+    background-color: #FFFFFF;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.member-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-title {
