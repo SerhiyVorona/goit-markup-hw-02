@@ -11,7 +11,7 @@ body {
 
 .logo {
     font-family: "Raleway", sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -21,10 +21,6 @@ body {
 
 .logo-studio {
     color: #2e2f42;
-}
-
-.opening-banner {
-    background-color: #2e2f42;
 }
 
 .nav-bar {
@@ -38,6 +34,25 @@ body {
 
 .nav-bar:hover {
     color: #404BBF;
+}
+
+.contact-information {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-information:hover {
+    color: #404bbf;
+}
+
+.contact-information:active {
+    color: #404bbf;
+}
+
+.opening-banner {
+    background-color: #2e2f42;
 }
 
 .main-header {
@@ -66,21 +81,6 @@ body {
 
 .order-button:focus {
     background-color: #404BBF;
-}
-
-.contact-information {
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contact-information:hover {
-    color: #404bbf;
-}
-
-.contact-information:active {
-    color: #404bbf;
 }
 
 .list-title {
